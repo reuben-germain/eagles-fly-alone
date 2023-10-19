@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background: #a1c6d7;
+    
 }
 
 header, footer {
@@ -23,6 +23,7 @@ header, footer {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
+    background: #a1c6d7;
 }
 
 .boxed-txt {
@@ -34,6 +35,8 @@ header, footer {
 .boxed-txt img {
     width: 100%;
     height: auto;
+    border-radius: 80%;
+    margin: 15px 0 15px 15px;
 }
 
 .content {
@@ -41,11 +44,19 @@ header, footer {
     max-width: 50%;
 }
 
+.content p{
+    margin-right: 20px;
+}
+
 .content-wrapper {
-    max-width: 800px;
-    width: 85%;
+    max-width: 100%;
+    width: 100%;
     margin: 0 auto;
-    padding: 60px 0;
-    background: #a1c6d7;
+    padding: 60px 20px;
+    color: #a1c6d7;
+    background: #112A46;
     line-height: 1.5;
+}
+.content-wrapper p{
+    margin-right: 40px;
 }
